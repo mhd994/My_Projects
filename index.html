@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Area Calculator</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Area and Price Calculator</h1>
+    <label for="length">Length (meters):</label>
+    <input type="number" id="length" placeholder="Enter length" />
+
+    <label for="width">Width (meters):</label>
+    <input type="number" id="width" placeholder="Enter width" />
+
+    <label for="meter">Price per meter ($):</label>
+    <input type="number" id="meter" placeholder="Enter price per meter" />
+
+    <button onclick="calculate()">Calculate</button>
+
+    <div id="results">
+      <p id="areaResult"></p>
+      <p id="priceResult"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
